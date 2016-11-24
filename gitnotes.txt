@@ -1,0 +1,2 @@
+git rebase -i HEAD~n       shows the n last commits. Delete the lines to delete the commits then..
+git push origin master -f  push this changes with force. CARE: dangerous, deletes permanent!

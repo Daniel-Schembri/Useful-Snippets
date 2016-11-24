@@ -1,0 +1,18 @@
+yy              yank line
+*yy             yank line nr
+
+epath           load file
+enew            create new file to edit
+
+#Splitwindow
+
+:sp                  Create Split window horizontal
+CTRL + w
+s                    Create Split window horizontal
+CTRL + w             Create Split window vertical
+v               
+:vsp                 Create Split window vertical
+CTRL + w + Arrow     Switch to window
+
+
+

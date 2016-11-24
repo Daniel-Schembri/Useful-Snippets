@@ -1,0 +1,9 @@
+#This libs have to be installed to use sdl2
+sudo apt-get install libsdl2-dev 
+sudo apt-get install libsdl2-image-dev 
+sudo apt-get install libsdl2-ttf-dev 
+sudo apt-get install libsdl2-mixer-dev 
+sudo apt-get install libsdl2-gfx-dev 
+
+#alternatively use:
+sudo apt-get install libsdl2-*-dev

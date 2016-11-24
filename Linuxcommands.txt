@@ -1,0 +1,36 @@
+#Rename File (Consider fileending! Has to be identical)
+mv filename new_filename
+
+#Make file runnable
+chmod +x Dateiname
+
+#Change Screenresolution per Console
+#Gives us the necessary options we need for xrandr command
+cvt 'width' 'height' 'frequency'
+#Add mode to Ubuntu (example)
+xrandr --newmode "1152x864_60.00"   81.75  1152 1216 1336 1520  864 867 871 897 -hsync +vsync
+xrandr --addmode Virtual1 "1152x864_60.00"
+#change resolution
+xrandr --output Virtual1 --mode "1152x864_60.00"
+
+#Search cmd history
+history | grep ausdruck
+
+#Serach cmd history (Press CTRL + R again to go through history)
+CTRL + R
+#Go backward in cmd history
+CTRL + SHIFT + R
+#Search recursiverly in a folder for alle occurences of Expression in files
+grep -rmw directory -e "Expression"
+
+#Rename of files
+rename 's/Filename/newFilename/[optional Options]' Files
+
+#Cancle process
+CTRL + C
+#Pause process
+CRTL + Z
+#Continue process in forerground (normally)
+fg
+#Continue process in background (we are in the terminal and can do other stuff, may not work with GUI!)
+
