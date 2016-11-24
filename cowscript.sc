@@ -1,4 +1,5 @@
 #/bin/bash
+# add this script to your .bashrc to get the legendary cowscript
 RANGE=13
 
 number=$RANDOM
