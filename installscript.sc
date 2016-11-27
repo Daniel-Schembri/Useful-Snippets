@@ -6,7 +6,6 @@
 sudo apt-get update
 sudo apt-get upgrade 
 
-
 #Todo Yes to all!
 sudo apt-get install git 
 sudo apt-get install gitg 
@@ -20,6 +19,12 @@ sudo apt-get install cmake
 sudo apt-get install zlib #Todo zlib maybe needs apt-update before or external src?
 sudo apt-get install libtinyxml-dev
 sudo apt-get install libtinyxml2-dev
+
+sudo apt-get install libglu-dev libxi-dev
+sudo apt-get install xorg-dev
+sudo apt-get install freeglut3-dev
+sudo apt-get install build-essential
+sudo apt-get install libx11-6:i386
 
 sudo apt-get install deluge 
 
