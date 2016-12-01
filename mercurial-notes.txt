@@ -1,0 +1,15 @@
+hg revert    Set patch to the status of the last qrefresh
+hg qnew -g -m "message (Reviewboardreference)" "patch-name"
+hg postreview -o -u -e ID  post to reviewboard
+hg postreview -o
+
+hg glog  show tree
+vim hg/Patches/Series   trick17: can change push order, but first deapply patches(?)
+hg log -ln   Replace n by number. show last n commits
+hg qpush    apply next patch
+hg qpop     deapply actual patch
+hg qpop -a  deapply all patches
+hg qfold patch3  patch1 patch2 <-merge into--patch3, but care, patch3 will be deleted!s
+hg qrefresh
+hg qrefresh -e
+hg -strip tip  undo commit
