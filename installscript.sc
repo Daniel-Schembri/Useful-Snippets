@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Note: You can call the script by yes | ./installscript.sc to avoid pressing y all the time
+
 # An installation script for a raw Ubuntu to install necessary coding stuff
 # Can be extended
 
@@ -20,13 +22,23 @@ sudo apt-get install zlib #Todo zlib maybe needs apt-update before or external s
 sudo apt-get install libtinyxml-dev
 sudo apt-get install libtinyxml2-dev
 
+sudo apt-get install doxygen
+sudo apt-get install asciidoc  #needs 1.1GByte!
+sudo apt-get install zlib1g-dev 
+sudo apt-get install latex-full
+sudo apt-get install graphviz
+
 sudo apt-get install libglu-dev libxi-dev
 sudo apt-get install xorg-dev
 sudo apt-get install freeglut3-dev
 sudo apt-get install build-essential
 sudo apt-get install libx11-6:i386
 
-sudo apt-get install deluge 
+sudo apt-get install deluge
+
+#latex
+sudo apt-get install texlive-full
+sudo apt-get install texmaker
 
 echo -e '\n ----- Installing coding stuff-----\n'
 sudo apt-get install qt5-default 
