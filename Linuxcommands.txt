@@ -21,7 +21,7 @@ CTRL + R
 #Go backward in cmd history
 CTRL + SHIFT + R
 #Search recursiverly in a folder for alle occurences of Expression in files
-grep -rmw directory -e "Expression"
+grep -rw directory -e "Expression"
 
 #Rename of files
 rename 's/Filename/newFilename/[optional Options]' Files
