@@ -19,3 +19,4 @@ gf open the filepath the cursor is actually pointing
 gF open the filepath and goto Line the cursor is actually pointing on
 :map <F8>:vertical wincmd F<CR>
 :map <F8>:vertical rightb wincmd F<CR>
+"*p                  Paste content from clipboard
