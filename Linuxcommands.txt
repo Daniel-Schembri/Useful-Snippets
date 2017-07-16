@@ -33,4 +33,7 @@ CRTL + Z
 #Continue process in forerground (normally)
 fg
 #Continue process in background (we are in the terminal and can do other stuff, may not work with GUI!)
+hg
+#shows all processes for specified user. top alone shows all processes
+top -u username
 
