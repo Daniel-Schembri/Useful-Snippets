@@ -11,6 +11,7 @@
 #sudo apt-get upgrade #Do this before you do install all the other stuff
 
 #Todo Yes to all!
+sudo apt-get install tree
 sudo apt-get install git 
 sudo apt-get install gitg 
 sudo apt-get install meld
