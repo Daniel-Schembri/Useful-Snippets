@@ -52,8 +52,10 @@ sudo apt-get install eclipse eclipse-cdt
 echo -e '\n ----- Installing Miscellani (Fortune and Cowsay)-----\n'
 sudo apt-get install fortune
 sudo apt-get install cowsay 
-echo -n > cowscript.sc
-chmod +x cowscript.sc
+echo -n
+cp cowscript.sc ~
+chmod +x ~/cowscript.sc
+echo -n "./cowscript.sc" >> ~/.bashrc
 echo -e '\n ----- Installing Miscellani-----\n'
 sudo apt-get install wireshark #This program at last, because you have to select a option and it waits!
 
