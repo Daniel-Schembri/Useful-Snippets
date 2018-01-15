@@ -39,6 +39,9 @@ sudo apt-get install libx11-6:i386
 
 sudo apt-get install deluge
 
+#Python3
+sudo apt-get install python3 python3-numpy python3-scipy python3-pip
+
 #latex
 sudo apt-get install latex-full
 sudo apt-get install texlive-full
