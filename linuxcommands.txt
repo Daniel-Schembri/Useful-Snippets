@@ -1,6 +1,9 @@
 #Rename File (Consider fileending! Has to be identical)
 mv filename new_filename
 
+#Reset console 
+tput reset
+
 #Make file runnable
 chmod +x Dateiname
 
@@ -37,3 +40,12 @@ hg
 #shows all processes for specified user. top alone shows all processes
 top -u username
 
+#Show available disk space
+df -h
+df -h --total
+
+# If ubuntu sounddriver makes stranges noise, reset pulseaudio
+pulseaudio -k && sudo alsa force-reload
+
+#RAMCheck with memtester. usage: memtester size(MB) loops
+memtester 1024 3

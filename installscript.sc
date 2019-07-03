@@ -43,9 +43,9 @@ sudo apt-get install deluge
 sudo apt-get install python3 python3-numpy python3-scipy python3-pip
 
 #latex
-sudo apt-get install latex-full
-sudo apt-get install texlive-full
-sudo apt-get install texmaker
+#sudo apt-get install latex-full
+#sudo apt-get install texlive-full
+#sudo apt-get install texmaker
 
 echo -e '\n ----- Installing coding stuff-----\n'
 sudo apt-get install qt5-default 
