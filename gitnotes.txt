@@ -1,2 +1,6 @@
 git rebase -i HEAD~n       shows the n last commits. Delete the lines to delete the commits then..
 git push origin master -f  push this changes with force. CARE: dangerous, deletes permanent!
+git reset --hard           Resets the current branch hard to the last state (Loses current changes)
+git status                 prints the current status of all files in git repo
+gitg                       GUI that shows the repo as tree
+
